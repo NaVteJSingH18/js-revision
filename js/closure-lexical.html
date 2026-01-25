@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: #313131;" 
+>
+    <button id="orange">orange</button>
+    <button id="green">green</button>
+</body>
+<script>
+    function init(){
+        const username="user"
+        function displayName(){
+            console.log(`from displayName ${username}`)
+        }
+         displayName()
+    }
+  init()
+function outer(){
+        const username="another user"
+    function inner(){
+
+        const secret="nai bataunga"
+        console.log(username)
+    }
+    function inner2(){
+        console.log(`from inner2 ${username}`);
+        
+        // console.log(`keh raha tha ${secret}`) not from sibling's scope because of lexical scoping
+    }
+    inner();
+    inner2();
+}
+outer()
+// console.log("outer",username    ) username is inside the function scope not in the global scope
+function makeFunc(){
+    const name="lastName"
+    function inside(){
+        console.log(name)//The closure scope = the variables from the outer function that the inner function still uses
+    }
+    return inside
+}
+
+const func=makeFunc()
+func()
+</script>
+<script>
+    function clickEvent(color){
+        return function(){
+            document.body.style.backgroundColor=`${color}`
+        }
+    }
+document.getElementById('orange').onclick=clickEvent("orange")
+document.getElementById('green').onclick=clickEvent("green")
+
+</script>
+</html>

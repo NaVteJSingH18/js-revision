@@ -1,0 +1,16 @@
+const firstclass = document.getElementsByClassName("firstclass")
+const firstheading = document.getElementById("firstheading")
+firstheading.style.color = "green"
+firstclass[0].style.border="1px solid black"
+firstclass[0].style.borderRadius="15px"
+firstclass[0].style.backgroundColor="black"
+firstclass[0].style.color="white"
+// firstclass[0].innerHTML="this is the changed content"
+firstclass[0].style.color="orange"
+const parah=document.querySelector('p')
+parah.style.border="1px solid blue"
+const parah2=document.querySelector("p:nth-child(3)")
+parah2.style.backgroundColor="red"
+const ul=document.querySelector("ul")
+const li=ul.querySelector("li")
+li.style.color="red"
