@@ -21,17 +21,17 @@
 // console.log(typeof(funct))//function object
 
 //stack gives the copy of value and heap gives the reference of value
-// let one="hey";
-// let two=one;
-// two="how are you";
-// console.log(two);
-// console.log(one)//stack
+let one="hey";
+let two=one;
+two="how are you";
+console.log(two);
+console.log(one)//stack
 
-// let obj1={
-//     name:"navtej"
+let obj1={
+    name:"navtej"
 
-// }
-// let another=obj1;
-// another.name="navi";
-// console.log(obj1.name)
-// console.log(another.name)//heap
+}
+let another=obj1;
+another.name="navi";
+console.log(obj1.name)
+console.log(another.name)//heap

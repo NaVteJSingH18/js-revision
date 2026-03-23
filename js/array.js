@@ -10,18 +10,18 @@ let arr2= new Array(23,true,'damn',"impressed",undefined)
 // arr2.pop()
 // console.log(arr2)
 
-// arr2.unshift(67)
-// console.log(arr2)
-// arr.shift()
-// console.log(arr)
+arr2.unshift(67)
+console.log(arr2)
+arr.shift()
+console.log(arr)
 
 
 //questions
-// console.log(arr.includes(true))//ask if element exists
+console.log(arr.includes(true))//ask if element exists
 // console.log(arr.indexOf(1))//if element exist then give 0 otherwise give -1
 const arr3=arr2.join()
 // console.log(arr2)
-// console.log(arr3)//convert into string
+console.log(arr3)//convert into string
 // console.log(typeof(arr3))
 
 //slice and splice
