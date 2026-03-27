@@ -20,7 +20,7 @@ const obj={
     [mysym]:"newkey",
     email:"navtej.dgc@gmail.com"
 }
-// console.log(obj[mysym])
+console.log(obj[mysym])
 // console.log(obj)
 
 // Object.freeze(obj)freeze the changing behavior

@@ -6,9 +6,10 @@ const animeheros=["midoriya","saitama","itoshi","bakugo","Hawk","almight"]
 const allheros=heros.concat(animeheros);//concat arrays but in another array and dont change the original array
 // console.log(allheros)
 
-// const allhero=[...heros,...animeheros]
+const allhero=[...heros,...animeheros]
+// console.log(allhero)
 const another_array=[1,2,3,["yo","hey","stars",[34,45,56],26,65,445,232,["ohho","crucial",["all",["to","me"]]]]]
-// console.log(another_array.flat(Infinity))
+console.log(another_array.flat(Infinity))
 
 // console.log(Array.isArray("navtej"))//checks if navtej is array or not
 

@@ -1,2 +1,2 @@
-arr2.pop()
+arr2.push(undefined)
 console.log(arr2)
