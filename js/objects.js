@@ -13,8 +13,8 @@ const obj2={
 }
 // console.log(obj2["name"])
 
-const mysym = Symbol("key")
 
+const mysym = Symbol("key")
 const obj={
     name:"navi",
     [mysym]:"newkey",
@@ -23,12 +23,12 @@ const obj={
 console.log(obj[mysym])
 // console.log(obj)
 
-// Object.freeze(obj)freeze the changing behavior
-// obj.name="navtej"
-// // console.log(obj)
+// // Object.freeze(obj)freeze the changing behavior
+// // obj.name="navtej"
+// // // console.log(obj)
 
-obj.greeting=function greetings(){
-    console.log(`hey ,${this.name}`)
-}
-// console.log(obj.greeting)
-// console.log(obj.greeting())
+// obj.greeting=function greetings(){
+//     console.log(`hey ,${this.name}`)
+// }
+// // console.log(obj.greeting)
+// // console.log(obj.greeting())
