@@ -53,7 +53,7 @@ function outer(){
     inner2();
 }
 outer()
-// console.log("outer",username     ) username is inside the function scope not in the global scope
+// console.log("outer",username) //username is inside the function scope not in the global scope
 function makeFunc(){
     const name="lastName"
     function inside(){

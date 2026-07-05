@@ -5,7 +5,8 @@ function SetUserName(username){
 function createUser(username,email,password){
     SetUserName.call(this,username)
     this.email=email;
-    this.passsword=password;
+    this.password=password;
 }
 const callkar=new createUser("naamnavi",21,1815);
 console.log(callkar)
+    

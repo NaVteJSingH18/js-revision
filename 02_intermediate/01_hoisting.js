@@ -16,7 +16,7 @@
 //JavaScript moves declarations to the top before execution
 // but only declaration not initialization 
 
-//behaviors of varn, let , const
+//behaviors of var, let , const
 
 // //var ✔️ Hoisted
 //  Initialized as undefined

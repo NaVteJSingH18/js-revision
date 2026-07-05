@@ -8,7 +8,9 @@ class User {
     }
     set email(value){
         this._email=value
+
     }
 }
-const app=new User('navi@gamil.com','gghkn')
+const app=new User('navi@gmail.com','gghkn')
 console.log(app.email)
+``

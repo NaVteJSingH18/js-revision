@@ -6,7 +6,7 @@ const Id=Symbol("23")//unique id
 const isId=Symbol("23")
 console.log(Id===isId) // false 
 // const array=[1,"string",true,undefined,null]
-// const isLoggedin=false;
+// let isLoggedin=false;
 // const temp=null;
 // let userEmail ;
 // console.log(typeof(array));//object

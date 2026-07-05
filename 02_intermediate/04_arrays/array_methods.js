@@ -7,7 +7,7 @@ const allheros=heros.concat(animeheros);//concat arrays but in another array and
 // console.log(allheros)
 
 const allhero=[...heros,...animeheros]
-// console.log(allhero)
+console.log(allhero)
 const another_array=[1,2,3,["yo","hey","stars",[34,45,56],26,65,445,232,["ohho","crucial",["all",["to","me"]]]]]
 console.log(another_array.flat(Infinity))
 
